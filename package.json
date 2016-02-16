@@ -1,0 +1,27 @@
+{
+  "name": "node-sass-glob-once",
+  "version": "1.0.0",
+  "description": "Allows single-import glob imports",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPGhatguy/node-sass-glob-once.git"
+  },
+  "keywords": [
+    "node-sass",
+    "sass",
+    "scss"
+  ],
+  "author": "Lucien Greathouse <me@lpghatguy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LPGhatguy/node-sass-glob-once/issues"
+  },
+  "homepage": "https://github.com/LPGhatguy/node-sass-glob-once#readme"
+}
