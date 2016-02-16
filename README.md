@@ -1,4 +1,8 @@
 # node-sass-glob-once
+[![npm version](https://img.shields.io/npm/v/node-sass-glob-once.svg)](https://www.npmjs.com/package/node-sass-glob-once)
+![node version](https://img.shields.io/node/v/node-sass-glob-once.svg)
+![license](https://img.shields.io/github/license/LPGhatguy/node-sass-glob-once.svg)
+
 ```sh
 npm install node-sass-glob-once
 ```
