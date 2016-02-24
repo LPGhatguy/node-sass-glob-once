@@ -41,10 +41,12 @@ module.exports = function(url, prev, done) {
 		cwd = path.dirname(prev);
 	}
 
+	let root = this.options.includePaths.split(":")[0];
+
 	if (!glob.hasMagic(url)) {
 		let fullPath = url;
 		if (!path.isAbsolute(url)) {
-			fullPath = path.join(cwd, url);
+			fullPath = path.join(root, url);
 		}
 
 		fullPath = normalize(fullPath);
@@ -64,7 +66,7 @@ module.exports = function(url, prev, done) {
 		};
 	}
 
-	glob(url, {cwd: cwd}, (err, files) => {
+	glob(path.join(root, url), (err, files) => {
 		if (err) {
 			// TODO: allow reporting of custom errors?
 			return console.error(err);
